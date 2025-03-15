@@ -31,7 +31,7 @@ def save_to_json(data: list[dict], file_path: str) -> None:
         # Обработка любых непредвиденных ошибок
     except Exception as e:
         print(f"Неожиданная ошибка при сохранении данных: {e}")
-    return None
+
 
 
 def get_salary_range():
@@ -63,27 +63,48 @@ def get_salary_range():
         return None, None  # Неправильный формат, возвращаем None
 
 
-# if __name__ == "__main__":
-#     import os
-#     from datetime import datetime
-#     from src.headhunter_api import HeadHunterApi
-#
-#     # Определение ключевого слова для получения вакансий
-#     keyword = "Python developer"
-#     # Создание экземпляра класса для работы с API сайтов с вакансиями
-#     hh_api = HeadHunterApi()
-#     # Получение вакансий с hh.ru с применением ключевого слова
-#     hh_vacancies = hh_api.get_vacancies(keyword)
-#     # Формируем название файла, включающего текущую дату и ключевое слово в названии
-#     date_today = datetime.now().strftime("%Y_%m_%d")
-#     file_name = f"{date_today}_{keyword.replace(' ', '_')}.json"
-#     # Получаем абсолютный путь к корневой директории проекта
-#     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#     # Указываем путь к записи файла file_name_vacancies
-#     file_name_path = os.path.join(BASE_DIR, "data", file_name)
-#     # Получаем JSON-файл с нужным названием и указанной директории
-#     save_to_json(hh_vacancies, file_name_path)
-#
-#     # Прочитаем записанный JSON-файл
-#     path_json_file = os.path.join(BASE_DIR, "data", "2025_03_09_Python_developer.json")
-#     print(read_json(path_json_file))
+def job_filtering():
+    """Получаем от пользователя название вакансии и город (через дефис) для фильтрации вакансий"""
+
+    filter_words = input("Введите название вакансии и город (через дефис) для фильтрации вакансий: ")
+    if not filter_words.strip():
+        return None, None  # Проверка на пустой список
+
+    filter_list = filter_words.split("-")
+    # Если введено только название вакансии
+    if len(filter_list) == 1:
+        name_vacancy = filter_list[0] if filter_list[0] else None
+        area = None  # Город остается неопределенным параметром
+        return name_vacancy, area
+
+    # Если введены оба параметра и название вакансии и город
+    elif len(filter_list) == 2:
+        name_vacancy = filter_list[0] if filter_list[0] else None
+        area = filter_list[1] if filter_list[1] else None
+        return name_vacancy, area
+
+
+if __name__ == "__main__":
+    import os
+    from datetime import datetime
+    from src.headhunter_api import HeadHunterApi
+
+    # Определение ключевого слова для получения вакансий
+    keyword = "Python"
+    # Создание экземпляра класса для работы с API сайтов с вакансиями
+    hh_api = HeadHunterApi()
+    # Получение вакансий с hh.ru с применением ключевого слова
+    hh_vacancies = hh_api.get_vacancies(keyword)
+    # Формируем название файла, включающего текущую дату и ключевое слово в названии
+    date_today = datetime.now().strftime("%Y_%m_%d")
+    file_name = f"{date_today}_{keyword.replace(' ', '_')}.json"
+    # Получаем абсолютный путь к корневой директории проекта
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    # Указываем путь к записи файла file_name_vacancies
+    file_name_path = os.path.join(BASE_DIR, "data", file_name)
+    # Получаем JSON-файл с нужным названием и указанной директории
+    save_to_json(hh_vacancies, file_name_path)
+
+    # Прочитаем записанный JSON-файл
+    path_json_file = os.path.join(BASE_DIR, "data", file_name)
+    print(read_json(path_json_file))

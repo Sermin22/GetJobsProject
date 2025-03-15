@@ -26,7 +26,7 @@ class HeadHunterApi(BaseClassAPI):
 
     def __init__(self):
         self.__url = 'https://api.hh.ru/vacancies'
-        self.__params = {'text': '', 'search_field': 'name', 'area': 113, 'period': 1,
+        self.__params = {'text': '', 'search_field': 'name', 'area': 113, 'period': 3,
                        'only_with_salary': True, 'per_page': 100, 'page': 0}
         self.__vacancies = []
         super().__init__()
@@ -85,22 +85,6 @@ class HeadHunterApi(BaseClassAPI):
             }
             vacancies_result.append(vacancy_data)
         return vacancies_result
-
-    # def convert_vacancies(self):
-    #     """Метод преобразования полученных вакансий, с необходимыми ключами и значениями"""
-    #     vacancies_result = []
-    #     for vacancy in self.vacancies:
-    #         vacancy_data = {
-    #             'name_vacancy': vacancy['name'],
-    #             'area': vacancy['area']['name'],
-    #             'employer': vacancy['employer']['name'],
-    #             'requirement': vacancy['snippet']['requirement'],
-    #             'salary_from': vacancy['salary']['from'],  # if vacancy['salary']['from'] is not None else 0,
-    #             'salary_to': vacancy['salary']['to'],  # if vacancy['salary']['to'] is not None else 0,
-    #             'url': vacancy['url']
-    #         }
-    #         vacancies_result.append(vacancy_data)
-    #     return vacancies_result
 
 
 # if __name__ == "__main__":

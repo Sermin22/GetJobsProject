@@ -1,8 +1,6 @@
-from src.headhunter_api import HeadHunterApi
-
 
 class Vacancy:
-    """Kласc для работы с вакансиями"""
+    """Реализован класc для работы с вакансиями"""
     name_vacancy: str
     area: str
     employer: str
@@ -76,36 +74,38 @@ class Vacancy:
         return self.get_salary_from != other.get_salary_from
 
 
-if __name__ == "__main__":
-    # Создаем объект класса
-    hh_api = HeadHunterApi()
-    # Получаем вакансии
-    hh_vacancies = hh_api.get_vacancies("Python developer")
-    # Преобразуем набор данных (список вакансий) из JSON в список объектов класса Vacancy
-    vacancies_list = Vacancy.cast_to_object_list(hh_vacancies)
-    # Выводим список объектов класса Vacancy
-    print(vacancies_list)
-    # Выводим наименование вакансии и работодателя первой в списке вакансии (она с индексом - 0)
-    print(vacancies_list[0].name_vacancy)
-    print(vacancies_list[0].employer)
-
-    # Пример работы конструктора класса с одной вакансией
-    vacancy = Vacancy("Python Developer", "Москва",
-                      "Кадровое агентство Candidate",
-                      "Опыт разработкиот 3-х лет", 110000, 180000,
-                      "https://api.hh.ru/vacancies/118000777?host=hh.ru")
-    print(vacancy)
-    print(vacancy.to_dict())
-
-    # Сравниваем минимальные зарплаты
-    vacancy1 = Vacancy("Программист", "Москва", "Компания А", [],
-                       50000, 80000, "http://example.com/vacancy1")
-    vacancy2 = Vacancy("Тестировщик", "Санкт-Петербург", "Компания Б", [],
-                       60000, 90000, "http://example.com/vacancy2")
-
-    print(vacancy1 < vacancy2)  # True, потому что минимальная зарплата у vacancy1 меньше
-    print(vacancy1 > vacancy2)  # False
-    print(vacancy1 == vacancy2)  # False
-    print(vacancy1 <= vacancy2)  # True
-    print(vacancy1 >= vacancy2)  # False
-    print(vacancy1 != vacancy2)  # True
+# if __name__ == "__main__":
+#     # Создаем объект класса
+#     from src.headhunter_api import HeadHunterApi
+#
+#     hh_api = HeadHunterApi()
+#     # Получаем вакансии
+#     hh_vacancies = hh_api.get_vacancies("Python developer")
+#     # Преобразуем набор данных (список вакансий) из JSON в список объектов класса Vacancy
+#     vacancies_list = Vacancy.cast_to_object_list(hh_vacancies)
+#     # Выводим список объектов класса Vacancy
+#     print(vacancies_list)
+#     # Выводим наименование вакансии и работодателя первой в списке вакансии (она с индексом - 0)
+#     print(vacancies_list[0].name_vacancy)
+#     print(vacancies_list[0].employer)
+#
+#     # Пример работы конструктора класса с одной вакансией
+#     vacancy = Vacancy("Python Developer", "Москва",
+#                       "Кадровое агентство Candidate",
+#                       "Опыт разработкиот 3-х лет", 110000, 180000,
+#                       "https://api.hh.ru/vacancies/118000777?host=hh.ru")
+#     print(vacancy)
+#     print(vacancy.to_dict())
+#
+#     # Сравниваем минимальные зарплаты
+#     vacancy1 = Vacancy("Программист", "Москва", "Компания А", [],
+#                        50000, 80000, "http://example.com/vacancy1")
+#     vacancy2 = Vacancy("Тестировщик", "Санкт-Петербург", "Компания Б", [],
+#                        60000, 90000, "http://example.com/vacancy2")
+#
+#     print(vacancy1 < vacancy2)  # True, потому что минимальная зарплата у vacancy1 меньше
+#     print(vacancy1 > vacancy2)  # False
+#     print(vacancy1 == vacancy2)  # False
+#     print(vacancy1 <= vacancy2)  # True
+#     print(vacancy1 >= vacancy2)  # False
+#     print(vacancy1 != vacancy2)  # True
