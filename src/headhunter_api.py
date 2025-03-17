@@ -1,12 +1,12 @@
-from abc import ABC, abstractmethod
 import requests
+from abc import ABC, abstractmethod
 
 
 class BaseClassAPI(ABC):
     """Абстрактный класс создания классов для работы с API"""
 
     @abstractmethod
-    def _connect(self):
+    def _connect(self, *args, **kwargs):
         """Защищенный метод подключения к API hh.ru и проверки статус-кода ответа."""
         pass
 
@@ -30,9 +30,6 @@ class HeadHunterApi(BaseClassAPI):
                        'only_with_salary': True, 'per_page': 100, 'page': 0}
         self.__vacancies = []
         super().__init__()
-
-    def __str__(self):
-        return f"{self.__vacancies}"
 
     @property
     def url(self):
@@ -64,11 +61,10 @@ class HeadHunterApi(BaseClassAPI):
         # Получаем список вакансий
         self.params['text'] = keyword
         if self.send_connect:
-            while self.params.get('page') != 20:
-                response = requests.get(self.url, params=self.params)
-                data = response.json()['items']
-                self.vacancies.extend(data)
-                self.params['page'] += 1
+            response = requests.get(self.url, params=self.params)
+            data = response.json()['items']
+            self.vacancies.extend(data)
+            self.params['page'] += 1
         # return self.vacancies
 
         # Преобразуем список вакансий
@@ -98,3 +94,4 @@ class HeadHunterApi(BaseClassAPI):
 #
 #     print(hh_vacancies)
 #     print(type(hh_vacancies))
+#     print(len(hh_vacancies))

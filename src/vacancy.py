@@ -1,6 +1,6 @@
 
 class Vacancy:
-    """Реализован класc для работы с вакансиями"""
+    """Класc для работы с вакансиями"""
     name_vacancy: str
     area: str
     employer: str
@@ -26,6 +26,7 @@ class Vacancy:
                 f"{self.__salary_from}, {self.__salary_to}, {self.url}")
 
     def to_dict(self):
+        """Метод возвращающий преобразованный объект класса Vacancy в виде словаря"""
         return {'name_vacancy': self.name_vacancy, 'area': self.area, 'employer': self.employer,
                 'requirement': self.requirement, 'salary_from': self.get_salary_from, 'salary_to': self.get_salary_to,
                 'url': self.url}
