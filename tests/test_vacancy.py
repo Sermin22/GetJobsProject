@@ -9,17 +9,20 @@ def test_vacancy_init(vacancy):
     assert vacancy.get_salary_from == 110000
     assert vacancy.get_salary_to == 180000
 
+
 def test_vacancy_str(vacancy):
     assert str(vacancy) == ("Python Developer, Москва, Кадровое агентство Candidate, "
                             "Опыт разработкиот 3-х лет, 110000, 180000, "
                             "https://api.hh.ru/vacancies/118000777?host=hh.ru")
 
+
 def test_vacancy_to_dict(vacancy):
     """Тест, проверяющий корректное преобразование объект класса Vacancy в словарь"""
     assert vacancy.to_dict() == {'name_vacancy': 'Python Developer', 'area': 'Москва',
                                  'employer': 'Кадровое агентство Candidate', 'requirement':
-                                 'Опыт разработкиот 3-х лет', 'salary_from': 110000, 'salary_to': 180000,
+                                     'Опыт разработкиот 3-х лет', 'salary_from': 110000, 'salary_to': 180000,
                                  'url': 'https://api.hh.ru/vacancies/118000777?host=hh.ru'}
+
 
 def test_cast_to_object_list(vacancies):
     """Тест, проверяющий метод преобразования набора данных из JSON в список объектов класса Vacancy"""
@@ -40,18 +43,19 @@ def test_cast_to_object_list(vacancies):
     assert vacancy_1.get_salary_to == 180000
     assert vacancy_1.url == "https://api.hh.ru/vacancies/118000777?host=hh.ru"
 
+
 def test_object_comparison(vacancy, vacancy_2):
     """Тестирование методов сравнения объектов класса Vacancy по минимальной зарплате(salary_from)"""
 
     # метод __lt__
-    assert (vacancy < vacancy_2) == True  # True, потому что минимальная зарплата vacancy меньше
+    assert (vacancy < vacancy_2) is True  # True, потому что минимальная зарплата vacancy меньше
     # метод __gt__
-    assert (vacancy > vacancy_2) == False
+    assert (vacancy > vacancy_2) is False
     # метод __eq__
-    assert (vacancy == vacancy_2) == False
+    assert (vacancy == vacancy_2) is False
     # метод __le__
-    assert (vacancy <= vacancy_2) == True
+    assert (vacancy <= vacancy_2) is True
     # метод __ge__
-    assert (vacancy >= vacancy_2) == False
+    assert (vacancy >= vacancy_2) is False
     # метод __ne__
-    assert (vacancy != vacancy_2) == True
+    assert (vacancy != vacancy_2) is True

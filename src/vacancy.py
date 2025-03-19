@@ -31,13 +31,14 @@ class Vacancy:
                 'requirement': self.requirement, 'salary_from': self.get_salary_from, 'salary_to': self.get_salary_to,
                 'url': self.url}
 
-    # Методы получения зарплаты
     @property
     def get_salary_from(self):
+        '''Методы получения зарплаты ОТ'''
         return self.__salary_from
 
     @property
     def get_salary_to(self):
+        '''Методы получения зарплаты ДО'''
         return self.__salary_to
 
     @classmethod

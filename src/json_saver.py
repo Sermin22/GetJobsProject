@@ -1,5 +1,4 @@
 import os
-import json
 from abc import ABC, abstractmethod
 from src.auxiliary_functions import read_json, save_to_json
 from src.vacancy import Vacancy
@@ -48,10 +47,12 @@ class JSONSaver(BaseJSONSaver):
 
     @property
     def file_name(self):
+        '''Геттер возвращает приватное имя'''
         return self.__file_name
 
     @file_name.setter
     def file_name(self, filename):
+        '''Сеттер меняет приватное имя'''
         self.__file_name = filename
 
     def get_vacancy(self, name_vacancy=None, area=None, salary_from=None, salary_to=None):
@@ -84,9 +85,8 @@ class JSONSaver(BaseJSONSaver):
 
             filtered_vacancies.append(vacancy)
         # return filtered_vacancies
-
-        save_to_json(filtered_vacancies, self.file_path)
-
+        self.vacancies_list = filtered_vacancies
+        save_to_json(self.vacancies_list, self.file_path)
 
     def add_vacancy(self, vacancy: Vacancy):
         """Метод добавляет вакансию в JSON-файл список вакансий, если такой вакансии ещё нет.
@@ -94,8 +94,9 @@ class JSONSaver(BaseJSONSaver):
         список вакансий"""
 
         if isinstance(vacancy, Vacancy) or issubclass(type(vacancy), Vacancy):
-            data = read_json(self.file_path)
-            self.vacancies_list.extend(data)  # Добавляем данные из файла в список
+            pass
+            # data = read_json(self.file_path)
+            # self.vacancies_list.extend(data)  # Добавляем данные из файла в список
         else:
             raise TypeError(f"Неверный тип аргумента: '{type.__name__}'")
 
@@ -153,30 +154,30 @@ class JSONSaver(BaseJSONSaver):
 #                         "МининС", "Писать код бизнес-процессов",
 #                         120000, 150000,
 #                         "https://api.hh.ru/vacancies/117628372?host=hh.ru")
-
-    # # Абсолютный путь к файлу
-    # base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    # file_path = os.path.join(base_dir, "data", "2025_03_14_Python.json")
-
-    # Получение вакансий из файла с именем файла:
-    # json_saver = JSONSaver()
-    # json_saver.get_vacancy()
-
-    # Получение вакансий из файла без имени файла (название файла по умолчанию saver.json в классе):
-    # json_saver_2 = JSONSaver()
-    # json_saver_2.get_vacancy(name_vacancy="Python developer", area="москва", salary_from=50000)
-
-    # # Сохранение информации о вакансиях в файл
-    # json_saver_3 = JSONSaver()
-    # json_saver_3.add_vacancy(vacancy_1)
-    # json_saver_3.add_vacancy(vacancy_2)
-    # json_saver_3.add_vacancy(vacancy_3)
-    # json_saver_3.add_vacancy(vacancy_4)
-    #
-    # # Добавление вакансии с работодателем как у vacancy_4, но названии вакансии другое
-    # json_saver_3.add_vacancy(vacancy_5)
-    # # Пробуем добавить вакансию аналогичную vacancy_5
-    # json_saver_3.add_vacancy(vacancy_6)
-    #
-    # # Удаление вакансии из JSON-файла
-    # json_saver_3.delete_vacancy("Middle Python developer", "МининС")
+#
+#     # Абсолютный путь к файлу
+#     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#     file_path = os.path.join(base_dir, "data", "2025_03_14_Python.json")
+#
+#     # Получение вакансий из файла с именем файла:
+#     json_saver = JSONSaver()
+#     json_saver.get_vacancy()
+#
+#     # Получение вакансий из файла без имени файла (название файла по умолчанию saver.json в классе):
+#     json_saver_2 = JSONSaver()
+#     json_saver_2.get_vacancy(name_vacancy="Senior Python developer", area="москва")
+#
+#     # Сохранение информации о вакансиях в файл
+#     json_saver_3 = JSONSaver()
+#     json_saver_3.add_vacancy(vacancy_1)
+#     json_saver_3.add_vacancy(vacancy_2)
+#     json_saver_3.add_vacancy(vacancy_3)
+#     json_saver_3.add_vacancy(vacancy_4)
+#
+#     # Добавление вакансии с работодателем как у vacancy_4, но названии вакансии другое
+#     json_saver_3.add_vacancy(vacancy_5)
+#     # Пробуем добавить вакансию аналогичную vacancy_5
+#     json_saver_3.add_vacancy(vacancy_6)
+#
+#     # Удаление вакансии из JSON-файла
+#     json_saver_3.delete_vacancy("Middle Python developer", "МининС")

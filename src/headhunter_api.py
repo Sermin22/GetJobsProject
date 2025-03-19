@@ -27,7 +27,7 @@ class HeadHunterApi(BaseClassAPI):
     def __init__(self):
         self.__url = 'https://api.hh.ru/vacancies'
         self.__params = {'text': '', 'search_field': 'name', 'area': 113, 'period': 3,
-                       'only_with_salary': True, 'per_page': 100, 'page': 0}
+                         'only_with_salary': True, 'per_page': 100, 'page': 0}
         self.__vacancies = []
         super().__init__()
 

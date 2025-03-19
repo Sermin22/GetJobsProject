@@ -17,6 +17,7 @@ def test_head_hunter_api_connect(mock_get):
     result = hh_api.send_connect()
     assert result == 200
 
+
 @patch('requests.get')
 def test_head_hunter_api_connect_failed(mock_get):
     """Тест метода класса HeadHunterApi подключения к API hh.ru и когда запрос к API
@@ -37,7 +38,7 @@ def response_json():
         "name": "Python Developer",
         "area": {"name": "Москва"},
         "employer": {"name": "Компания А"},
-        "snippet": {"requirement":"Опыт разработки от 3-х лет"},
+        "snippet": {"requirement": "Опыт разработки от 3-х лет"},
         "salary": {"from": 110000, "to": 180000},
         "url": "https://api.hh.ru/vacancies/118000777?host=hh.ru"}]}
 

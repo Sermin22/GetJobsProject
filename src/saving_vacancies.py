@@ -1,43 +1,47 @@
-from src.vacancy import Vacancy
+# Данный модуль и реализованный в нем класс SavingVacancies
+# не используется в главном модуле user_interaction для взаимодействия с пользователем и
+# поэтому не тестировался.
 
-
-class SavingVacancies:
-    """Класс для сохранения информации о вакансиях, добавления новых вакансий,
-    удаление вакансий и получение данных по указанным критериям"""
-    vacancy_list: list
-
-    def __init__(self, vacancy_list=None):
-        self.vacancy_list = vacancy_list if vacancy_list else []
-
-    def __str__(self):
-        result = ""
-        for vacancy in self.vacancy_list:
-            result += str(vacancy) + "\n"
-        return result
-
-    def add_vacancy(self, vacancy: Vacancy) -> list[Vacancy]:
-        """Метод добавляет вакансию в вакансии, если такой вакансии ещё нет.
-        Параметр vacancy - объект вакансии типа Vacancy, метод возвращает обновленный
-        список вакансий"""
-
-        # Проверяем, есть ли уже вакансия с такими же названием и работодателем
-        if not any(key_vacancy.name_vacancy == vacancy.name_vacancy
-                   and key_vacancy.employer == vacancy.employer
-                   for key_vacancy in self.vacancy_list):
-            self.vacancy_list.append(vacancy)
-        return self.vacancy_list
-
-    def delete_vacancy(self, name_vacancy: str, employer: str) -> bool:
-        """Удаляет вакансию из списка вакансий по названию вакансии и работодателю.
-        Возвращает True, если вакансия была успешно удалена, иначе False"""
-
-        found = False
-        for index, vacancy in enumerate(self.vacancy_list):
-            if vacancy.name_vacancy == name_vacancy and vacancy.employer == employer:
-                del self.vacancy_list[index]
-                found = True
-                break
-        return found
+# from src.vacancy import Vacancy
+#
+#
+# class SavingVacancies:
+#     """Класс для сохранения информации о вакансиях, добавления новых вакансий,
+#     удаление вакансий и получение данных по указанным критериям"""
+#     vacancy_list: list
+#
+#     def __init__(self, vacancy_list=None):
+#         self.vacancy_list = vacancy_list if vacancy_list else []
+#
+#     def __str__(self):
+#         result = ""
+#         for vacancy in self.vacancy_list:
+#             result += str(vacancy) + "\n"
+#         return result
+#
+#     def add_vacancy(self, vacancy: Vacancy) -> list[Vacancy]:
+#         """Метод добавляет вакансию в вакансии, если такой вакансии ещё нет.
+#         Параметр vacancy - объект вакансии типа Vacancy, метод возвращает обновленный
+#         список вакансий"""
+#
+#         # Проверяем, есть ли уже вакансия с такими же названием и работодателем
+#         if not any(key_vacancy.name_vacancy == vacancy.name_vacancy
+#                    and key_vacancy.employer == vacancy.employer
+#                    for key_vacancy in self.vacancy_list):
+#             self.vacancy_list.append(vacancy)
+#         return self.vacancy_list
+#
+#     def delete_vacancy(self, name_vacancy: str, employer: str) -> bool:
+#         """Удаляет вакансию из списка вакансий по названию вакансии и работодателю.
+#         Возвращает True, если вакансия была успешно удалена, иначе False"""
+#
+#         found = False
+#         for index, vacancy in enumerate(self.vacancy_list):
+#             if vacancy.name_vacancy == name_vacancy and vacancy.employer == employer:
+#                 del self.vacancy_list[index]
+#                 found = True
+#                 break
+#         return found
 
 
 # if __name__ == "__main__":
