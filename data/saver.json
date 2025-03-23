@@ -1,0 +1,776 @@
+[
+    {
+        "name_vacancy": "Fullstack developer (Python)",
+        "area": "Москва",
+        "employer": "Heroes",
+        "requirement": "Отличное владение каким-либо backend-стеком технологий (<highlighttext>Python</highlighttext>, Java, Go и т.п.). Достаточное :) владение react. Готовность освоить наш стек...",
+        "salary_from": 300000,
+        "salary_to": 350000,
+        "url": "https://api.hh.ru/vacancies/117468876?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Python developer",
+        "area": "Москва",
+        "employer": "Ритейл-Процессинг",
+        "requirement": "...знание <highlighttext>Python</highlighttext>3, опыт промышленной <highlighttext>разработки</highlighttext> от 2 лет. Опыт использования одного из фреймворков (Django, Flask, FastAPI). Опыт асинхронной <highlighttext>разработки</highlighttext>...",
+        "salary_from": 280000,
+        "salary_to": 300000,
+        "url": "https://api.hh.ru/vacancies/117956219?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Backend Developer (Python)",
+        "area": "Москва",
+        "employer": "Лаборатория ПИИ",
+        "requirement": "Опыт профессиональной <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> и Typescript от 6-х лет. Отличные знания PostgreSQL и умение использовать расширения БД для...",
+        "salary_from": 250000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118525468?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend Python developer",
+        "area": "Москва",
+        "employer": "Maslov.ai",
+        "requirement": "Умел разрабатывать на <highlighttext>Python</highlighttext> 3 с упором на асинхронность. Писал SQL-запросы на диалект PostgreSQL без ORM и шпаргалок. ",
+        "salary_from": 250000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118042320?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Python (Backend) | Middle+ / Senior",
+        "area": "Москва",
+        "employer": "Сонягина Юлия Владимировна",
+        "requirement": "Опыт работы на позиции Backend <highlighttext>разработчика</highlighttext> от 2 лет. Знание <highlighttext>Python</highlighttext> и фреймворков (Django, Flask). Опыт работы с RESTful API...",
+        "salary_from": 250000,
+        "salary_to": 500000,
+        "url": "https://api.hh.ru/vacancies/117582996?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Java/Python (Senior)",
+        "area": "Москва",
+        "employer": "Про.Потолок",
+        "requirement": "Высшее профильное образование. Опыт <highlighttext>разработки</highlighttext> от 5 лет в системах с микросервисной архитектурой. Владение SQL и NoSQL, понимание гибридной архитектуры...",
+        "salary_from": 250000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118287232?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior python developer",
+        "area": "Новосибирск",
+        "employer": "Тензор",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> от 3-х лет. Уверенное программирование на <highlighttext>Python</highlighttext> или других скриптовых языках с последующей миграцией на <highlighttext>Python</highlighttext>. ",
+        "salary_from": 250000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117401614?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle/Senior Python разработчик",
+        "area": "Москва",
+        "employer": "Мамаева Ирина Анатольевна",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> 3.х от 4х лет обязательно. ⁃ Знание RabbitMQ, Celery. ⁃ Коммерческий опыт с SQL/NoSQL...",
+        "salary_from": 240000,
+        "salary_to": 370000,
+        "url": "https://api.hh.ru/vacancies/118252355?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python разработчик AI сервисы",
+        "area": "Москва",
+        "employer": "Джем-Софт",
+        "requirement": "Навыки работы с базами данных (PostgreSQL, Redis, MongoDB). Опыт работы с Docker. Коммерческая <highlighttext>Python</highlighttext> <highlighttext>разработка</highlighttext> 5+ лет. ",
+        "salary_from": 230000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117579859?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Backend Developer (Python FastAPI + SQL)",
+        "area": "Москва",
+        "employer": "e-Comet",
+        "requirement": "Написание качественного кода и тестов к нему. Необходимый стек: <highlighttext>Python</highlighttext> (asyncio), чистый SQL (не ORM), FastAPI (весь функционал), микросервисная архитектура...",
+        "salary_from": 215000,
+        "salary_to": 265000,
+        "url": "https://api.hh.ru/vacancies/117570423?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend-Python Middle разработчик",
+        "area": "Москва",
+        "employer": "NATIVE TRENDS",
+        "requirement": "Опыт работы как Backend-<highlighttext>Python</highlighttext> <highlighttext>разработчиком</highlighttext> не менее 2 лет. Глубокие знания и опыт работы с <highlighttext>Python</highlighttext>. Глубокое понимание фреймворков...",
+        "salary_from": 200000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118573596?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python (django) разработчик",
+        "area": "Москва",
+        "employer": "Аптрейд",
+        "requirement": "Опыт Backend <highlighttext>разработки</highlighttext> от 3-х лет. Знания фреймворка Django. Знание SQL. Опыт работы с Celery. Хорошее знание docker. ",
+        "salary_from": 200000,
+        "salary_to": 300000,
+        "url": "https://api.hh.ru/vacancies/116082956?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист-разработчик Python",
+        "area": "Москва",
+        "employer": "Красное & Белое, розничная сеть",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> от 2-х лет. Инженерно-техническое образование. Знание SQL и ORM. Опыт работы с СУБД...",
+        "salary_from": 200000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/116694017?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Python/Go Разработчик",
+        "area": "Санкт-Петербург",
+        "employer": "НТЦ ЕЭС",
+        "requirement": "Django (используется для UI отображения логов из базы данных PostgreSQL). Flask. Опыт <highlighttext>разработки</highlighttext> на Go: <highlighttext>Разработка</highlighttext> приложений высокой производительности с...",
+        "salary_from": 200000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118011296?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle/senior developer Python (со знанием Ruby on Rails)",
+        "area": "Москва",
+        "employer": "Соломедиа",
+        "requirement": "...2.7-3.2, rails 5-7 версия. Будет большим плюсом владение Go (от 1го года в ком/<highlighttext>разработке</highlighttext>).",
+        "salary_from": 200000,
+        "salary_to": 300000,
+        "url": "https://api.hh.ru/vacancies/117424330?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend-разработчик (Python), удалённо",
+        "area": "Москва",
+        "employer": "Track Heroes Karting App",
+        "requirement": "Опыт <highlighttext>разработки</highlighttext> веб-приложений на <highlighttext>Python</highlighttext> (желательно Flask, FastAPI, Django) от 2 лет. - Уверенное владение SQL и опытом работы с...",
+        "salary_from": 180000,
+        "salary_to": 275000,
+        "url": "https://api.hh.ru/vacancies/118521301?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Python (уверенный Middle+)",
+        "area": "Москва",
+        "employer": "Human Capital",
+        "requirement": "Опыт <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> от 3 лет. Опыт работы с REST API, TDD, FastAPI. Опыт работы с базами данных PostgreSQL. ",
+        "salary_from": 180000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118545538?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Python",
+        "area": "Владивосток",
+        "employer": "Компания Группа компаний Реми",
+        "requirement": "Навык работы с SQL/NoSQL базами данных (PostgreSQL, MongoDB), а так же написания raw запросов для них. Понимание того, как...",
+        "salary_from": 180000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/115878755?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python-разработчик",
+        "area": "Москва",
+        "employer": "Шатаев Андрей Васильевич",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> от 2 лет. Понимание работы с асинхронностью, очередьми сообщений, FastAPI, SQLAlchemy (без ORM) и SQL. ",
+        "salary_from": 180000,
+        "salary_to": 220000,
+        "url": "https://api.hh.ru/vacancies/117926121?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Инженер-программист C#, С++, NI LabVIEW, Python, GENESIS64 и Infinity.",
+        "area": "Тюмень",
+        "employer": "АМКОР",
+        "requirement": "Чем предстоит занимается: разрабатывать код программной платформы, чтобы он был супернадёжным и соответствовал строгим стандартам безопасности. Ключевые навыки: Объектно-ориентированное...",
+        "salary_from": 180000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117615452?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист Python/С++",
+        "area": "Санкт-Петербург",
+        "employer": "РусХОЛТС",
+        "requirement": "Опыт работы с C/C++ от 3 лет. Хорошее знание Linux и <highlighttext>Python</highlighttext>. Понимание схемотехники будет преимуществом. Умение решать алгоритмические...",
+        "salary_from": 180000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117706369?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист Python",
+        "area": "Ярославль",
+        "employer": "Тензор",
+        "requirement": "Знание <highlighttext>Python</highlighttext> или иных скриптовых языков с последующей миграцией на <highlighttext>Python</highlighttext>. Хорошее знание SQL. Умение и желание писать качественный, поддерживаемый...",
+        "salary_from": 175000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118487814?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend-разработчик (Python/Crypto)",
+        "area": "Казань",
+        "employer": "Дильмиева Светлана Рустамовна",
+        "requirement": null,
+        "salary_from": 170000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117981753?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python разработчик",
+        "area": "Санкт-Петербург",
+        "employer": "П.А.К.Т.",
+        "requirement": "Опыт программирования <highlighttext>python</highlighttext> от 3х лет, понимание принципов ООП, DRY, SOLID. Опыт работы с РСУБД (mysql, postgres). ",
+        "salary_from": 160000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118313025?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Старший Python разработчик",
+        "area": "Москва",
+        "employer": "Enjoypro",
+        "requirement": "Уверенное владение <highlighttext>Python</highlighttext> (версии 3+) от 4 лет опыта. Отличное знание библиотек requsts, scapy. Опыт работы с веб-фреймворками...",
+        "salary_from": 160000,
+        "salary_to": 240000,
+        "url": "https://api.hh.ru/vacancies/117467503?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python Web-разработчик",
+        "area": "Москва",
+        "employer": "Селфсек",
+        "requirement": "Знание HTML и CSS (для мелких исправлений и адаптации верстки для шаблонизатора). Как преимущество: Опыт <highlighttext>разработки</highlighttext> и проектирования сервисов с...",
+        "salary_from": 150000,
+        "salary_to": 200000,
+        "url": "https://api.hh.ru/vacancies/118468340?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python Developer",
+        "area": "Санкт-Петербург",
+        "employer": "Артеус",
+        "requirement": "Arteus LLM. Опыт работы с <highlighttext>Python</highlighttext>. Использование Pydantic. Опыт работы с базами данных, анализа и обработки неструктурированных данных. ",
+        "salary_from": 150000,
+        "salary_to": 250000,
+        "url": "https://api.hh.ru/vacancies/118433303?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик / Backend Developer Java/Python",
+        "area": "Санкт-Петербург",
+        "employer": "Партс Планет Трейдинг",
+        "requirement": "Опыт работы со стеком: Java, Spring, от 2х лет. Опыт работы со стеком: <highlighttext>Python</highlighttext>, Fast Api, от 2х...",
+        "salary_from": 150000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118330534?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист (Python, C++, нейросети)",
+        "area": "Санкт-Петербург",
+        "employer": "Солитюд Аэриал",
+        "requirement": "Опыт работы в области компьютерного зрения от 2 лет. Отличное владение <highlighttext>Python</highlighttext>. Знание популярных нейросетевых архитектур, используемых в компьютерном зрении...",
+        "salary_from": 150000,
+        "salary_to": 180000,
+        "url": "https://api.hh.ru/vacancies/118184889?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle backend python-разработчик в AI компанию (удаленно)",
+        "area": "Санкт-Петербург",
+        "employer": "Университет искусственного интеллекта",
+        "requirement": "Опыт работы <highlighttext>Python</highlighttext>-<highlighttext>разработчиком</highlighttext> от 2 лет. <highlighttext>Python</highlighttext> 3.7+. Django 2+, Flask 2+. Frontend: HTML, CSS...",
+        "salary_from": 150000,
+        "salary_to": 200000,
+        "url": "https://api.hh.ru/vacancies/117756016?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle backend python-разработчик в AI компанию",
+        "area": "Самара",
+        "employer": "Университет искусственного интеллекта",
+        "requirement": "Опыт работы <highlighttext>Python</highlighttext>-<highlighttext>разработчиком</highlighttext> от 2 лет. <highlighttext>Python</highlighttext> 3.7+. Django 2+, Flask 2+. Frontend: HTML, CSS...",
+        "salary_from": 150000,
+        "salary_to": 200000,
+        "url": "https://api.hh.ru/vacancies/118011706?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python developer",
+        "area": "Севастополь",
+        "employer": "КОМТЕК",
+        "requirement": "Что мы хотим видеть в коллеге: Знание языка <highlighttext>Python</highlighttext> 3.x. Опыт работы с Django/Django rest framework. ",
+        "salary_from": 140000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117636287?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик (банковский проект)",
+        "area": "Москва",
+        "employer": "Volna.tech",
+        "requirement": "Опыт работы с Apache Kafka или другими системами обмена сообщениями. - Опыт <highlighttext>разработки</highlighttext> интеграционных сервисов с помощью REST API. - ",
+        "salary_from": 130000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118562732?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Набережные Челны",
+        "employer": "Алабуга, ОЭЗ ППТ",
+        "requirement": "Опыт работы с <highlighttext>Python</highlighttext> и Django (Django Rest Framework). Знание Django ORM. Понимание принципов работы RESTful API. Опыт работы с...",
+        "salary_from": 127500,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/116814467?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Елабуга",
+        "employer": "Алабуга, ОЭЗ ППТ",
+        "requirement": "Опыт работы с <highlighttext>Python</highlighttext> и Django. Знание Django ORM. Понимание принципов работы RESTful API. Опыт работы с реляционными базами данных...",
+        "salary_from": 127500,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/116814466?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист Python разработчик (робототехника)",
+        "area": "Казань",
+        "employer": "Профцифра",
+        "requirement": "Наш стек технологий: С++20, <highlighttext>Python</highlighttext>, Ubuntu, Linux, Git, Docker, Bazel, STL, Boost, Ranges, Eigen, OMPL, ROS, CGAL, PCL. ",
+        "salary_from": 120000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118446516?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик (Backend developer / Python)",
+        "area": "Тюмень",
+        "employer": "Статус",
+        "requirement": "Опыт работы от 1,5 лет с аналогичным функционалом. Опыт коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> (3.9 и выше) от 1...",
+        "salary_from": 120000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/108921516?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python developer",
+        "area": "Санкт-Петербург",
+        "employer": "ЛИГРЕС",
+        "requirement": "Писать код бизнес-процессов. — Знал <highlighttext>Python</highlighttext>3.7+ на высоком уровне. Желательно знание новых фич языка. Обязательно знание библиотеки...",
+        "salary_from": 120000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117628372?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик Telegram",
+        "area": "Москва",
+        "employer": "IVANCHINTRAFF (ИП Иванчин Александр Викторович)",
+        "requirement": "Умение разобраться в скрытых параметрах, передающихся в Telegram, через Telethon и учёт их при <highlighttext>разработке</highlighttext> скриптов. Опыт работы с базами...",
+        "salary_from": 120000,
+        "salary_to": 160000,
+        "url": "https://api.hh.ru/vacancies/117851991?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Ижевск",
+        "employer": "Iconicompany",
+        "requirement": "Опыт работы с Apache Kafka или другими системами обмена сообщениями. - Опыт <highlighttext>разработки</highlighttext> интеграционных сервисов с помощью REST API. ",
+        "salary_from": 110000,
+        "salary_to": 120000,
+        "url": "https://api.hh.ru/vacancies/118476402?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle backend python developer",
+        "area": "Москва",
+        "employer": "Wildbox",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> от 3-х лет. Уверенный опыт работы с <highlighttext>Python</highlighttext>3, Django, DRF, Django ORM / SQLAlchemy / чистый SQL...",
+        "salary_from": 110000,
+        "salary_to": 180000,
+        "url": "https://api.hh.ru/vacancies/118000777?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Москва",
+        "employer": "RecruitTech",
+        "requirement": "...коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> (3.9 и выше) или готовность перехода с другого стека - от 2 лет. Умение сопровождать <highlighttext>разработку</highlighttext>...",
+        "salary_from": 110000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117973537?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python разработчик",
+        "area": "Самара",
+        "employer": "Россети Цифра",
+        "requirement": "Навыки работы с bash / Linux / Git. Опыт программирования на <highlighttext>Python</highlighttext>. Опыт интеграции систем и сервисов c внешними API. ",
+        "salary_from": 100000,
+        "salary_to": 180000,
+        "url": "https://api.hh.ru/vacancies/118506142?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend Python Developer",
+        "area": "Барнаул",
+        "employer": "Цифровые Системы",
+        "requirement": "Приветствуются базовые знания HTML, CSS, JavaScript, PHP для взаимодействия с фронтенд-<highlighttext>разработчиками</highlighttext> и поддержки существующих продуктов. Личностные качества: - Ответственность и...",
+        "salary_from": 100000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118416138?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python Django Developer",
+        "area": "Ростов-на-Дону",
+        "employer": "Цифровой Диалог",
+        "requirement": "HTML, CSS, Bootstrap — навыки адаптивной верстки, опыт <highlighttext>разработки</highlighttext> пользовательских страниц. JavaScript (jQuery) — базовые знания. Linux — владение командной строкой, понимание работы...",
+        "salary_from": 100000,
+        "salary_to": 120000,
+        "url": "https://api.hh.ru/vacancies/118073635?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Prompt Engineer / Python Backend Developer Junior",
+        "area": "Москва",
+        "employer": "Алмазгеобур",
+        "requirement": "Опыт в QA тестировании manual. Аналитическое мышление. Отличные коммуникативные навыки. Знания <highlighttext>Python</highlighttext> на уровне Junior. Опыт работы с API. ",
+        "salary_from": 100000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118033140?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Наставник курса “Профессия Разработчик на Python”",
+        "area": "Москва",
+        "employer": "Skyeng",
+        "requirement": "Есть опыт коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> от 3х лет. Являетесь middle-<highlighttext>разработчиком</highlighttext> (и выше) Знаниями SQL, HTML, CSS, работы...",
+        "salary_from": 90000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118437133?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Москва",
+        "employer": "ГК ВессоЛинк",
+        "requirement": "Навык обработки данных для обучения и тестирования моделей. Опыт программирования на <highlighttext>Python</highlighttext>. Умение работать в команде. Хорошая коммуникация, умение доносить...",
+        "salary_from": 86000,
+        "salary_to": 86000,
+        "url": "https://api.hh.ru/vacancies/118545276?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior+ Python Developer",
+        "area": "Санкт-Петербург",
+        "employer": "Buzz",
+        "requirement": "Опыт коммерческой <highlighttext>разработки</highlighttext> от 1 года. Уверенное знание и опыт работы с <highlighttext>Python</highlighttext>/Flask. No-SQL (MongoDB). Опыт с системами...",
+        "salary_from": 80000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118572837?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик Telegram Api",
+        "area": "Москва",
+        "employer": "Соловьев Андрей Сергеевич",
+        "requirement": "Опыт работы от 1 до 3 лет в <highlighttext>разработке</highlighttext> на <highlighttext>Python</highlighttext>. Глубокие знания Telegram API и опыт работы с Telethon...",
+        "salary_from": 80000,
+        "salary_to": 160000,
+        "url": "https://api.hh.ru/vacancies/118464278?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Тюмень",
+        "employer": "Симакс",
+        "requirement": "Высшее техническое образование. Pydantic. SQLAlchemy 2. FastApi. СУБД PostgreSQL (в том числе работа с JSON). RAbbitMQ. Docker. OAuth. ",
+        "salary_from": 80000,
+        "salary_to": 120000,
+        "url": "https://api.hh.ru/vacancies/118480827?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик (IT компания)",
+        "area": "Краснодар",
+        "employer": "Мистер Чек",
+        "requirement": "Уверенное владение <highlighttext>Python</highlighttext> (3+). Понимание алгоритмов и структур данных. SQL, Git, Linux на продвинутом уровне. Знание принципов ООП.",
+        "salary_from": 80000,
+        "salary_to": 200000,
+        "url": "https://api.hh.ru/vacancies/118510856?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Fullstack developer Python (Flask), Vue",
+        "area": "Санкт-Петербург",
+        "employer": "УЦ Профстандарт",
+        "requirement": "Хорошие навыки программирования на <highlighttext>Python</highlighttext>. Опыт работы с Flask / другими RESTful фреймворками. Опыт работы с базами данных (MySQL, PgSQL и...",
+        "salary_from": 80000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118422437?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Программист/Разработчик Python",
+        "area": "Новосибирск",
+        "employer": "ФОРА",
+        "requirement": "Знание английского языка достаточное для чтения технической документации. Понимание ООП. Опыт <highlighttext>разработки</highlighttext> приложений на <highlighttext>Python</highlighttext>/Qt/C++/C#. ",
+        "salary_from": 80000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117522690?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python разработчик (офис)",
+        "area": "Зеленоград",
+        "employer": "СтратоСфера",
+        "requirement": "...<highlighttext>Python</highlighttext> 3.9+, JS, SQL. Flask, SQLAlchemy, Bootstrap, JQuery. Платформа: Linux, Docker, PostgreSQL. Нужен “свежий” опыт <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext>...",
+        "salary_from": 80000,
+        "salary_to": 90000,
+        "url": "https://api.hh.ru/vacancies/117441523?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior Python разработчик",
+        "area": "Краснодар",
+        "employer": "МедРокет",
+        "requirement": "Знание <highlighttext>Python</highlighttext>3. Базовое владение HTML, CSS. В компании есть отдельные FrontEnd <highlighttext>разработчики</highlighttext>, но желательно уметь читать их код. ",
+        "salary_from": 72680,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118429816?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior Python разработчик (робототехника)",
+        "area": "Санкт-Петербург",
+        "employer": "Скиллтеллект",
+        "requirement": "Базовое понимание ТАУ (Теория Автоматического Управления). Уверенные навыки написания кода на <highlighttext>Python</highlighttext>. Знание английского языка на уровне чтения технической литературы. ",
+        "salary_from": 70000,
+        "salary_to": 70000,
+        "url": "https://api.hh.ru/vacancies/118471092?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик (парсинг)",
+        "area": "Москва",
+        "employer": "Аптрейд",
+        "requirement": "Уверенное понимание работы с Git. Опыт многопоточного и асинхронного программирования. Опыт работы PostgreSQL. Понимание принципов SOLID. Опыт написания Unit-тестов...",
+        "salary_from": 70000,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/117945230?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик (Django) Junior",
+        "area": "Москва",
+        "employer": "Саппи Аналитикс",
+        "requirement": "Высокая самостоятельность, готовность работать без постоянного присмотра наставником. Хорошее владение <highlighttext>Python</highlighttext> и умение оформлять код. Внимательность к деталям и ответственность. ",
+        "salary_from": 60000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118524767?host=hh.ru"
+    },
+    {
+        "name_vacancy": "ML\\AI & Python Developer (Junior)",
+        "area": "Москва",
+        "employer": "MediaNation",
+        "requirement": "...и <highlighttext>Python</highlighttext>, которому интересно разбираться с ML-инструментами, работать с различными AI-фреймворками и настраивать интеграции. ️ Что нужно знать: - <highlighttext>Python</highlighttext>. - ",
+        "salary_from": 60000,
+        "salary_to": 80000,
+        "url": "https://api.hh.ru/vacancies/117910105?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior Python developer (back-end) в офис",
+        "area": "Новосибирск",
+        "employer": "Десенчери",
+        "requirement": "Знание <highlighttext>Python</highlighttext> 3, опыт работы с Django и/или Flask, и/или FastAPI. Понимание асинхронного программирования (asyncio). Опыт работы с...",
+        "salary_from": 60000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118041459?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior Fullstack Developer / Младший Фулстек-Разработчик (JavaScript, Python)",
+        "area": "Санкт-Петербург",
+        "employer": "Whiteleads",
+        "requirement": "Frontend – JavaScript, React. – Практический опыт <highlighttext>разработки</highlighttext> на языках <highlighttext>Python</highlighttext> и React от 6 месяцев. – Опыт работы с FastApi (или Django...",
+        "salary_from": 60000,
+        "salary_to": 100000,
+        "url": "https://api.hh.ru/vacancies/118146578?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Казань",
+        "employer": "ГОСТ услуги",
+        "requirement": "<highlighttext>Python</highlighttext> (от 1 года коммерческого опыта). SQL + реляционные БД (PostgreSQL, MySQL). REST API. Git. Docker. Linux (базовый уровень). ",
+        "salary_from": 50000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118423793?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Junior / Pre-middle Python Developer",
+        "area": "Оренбург",
+        "employer": "Шлыков Станислав Игоревич",
+        "requirement": "Хорошее знакомство с процессами и методологиями гибкой <highlighttext>разработки</highlighttext> (Scrum). Отличные коммуникативные навыки. Сильные навыки влияния, ведения переговоров и общения (письменные...",
+        "salary_from": 50000,
+        "salary_to": 70000,
+        "url": "https://api.hh.ru/vacancies/117935317?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Барнаул",
+        "employer": "Райтер Павел",
+        "requirement": "Опыт <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> 3.6+ от 2 лет. Уверенное понимание ООП и паттернов проектирования. Опыт работы с Git. ",
+        "salary_from": 40000,
+        "salary_to": 70000,
+        "url": "https://api.hh.ru/vacancies/118258363?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик нейро Python, C++ junior",
+        "area": "Санкт-Петербург",
+        "employer": "Илюхин Артём Вадимович",
+        "requirement": "Обязательно C++ на уверенном уровне и с погружением.",
+        "salary_from": 30000,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/118472337?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Python",
+        "area": "Ростов-на-Дону",
+        "employer": "Электронная медицина",
+        "requirement": "Опыт проектирования, поддержки и <highlighttext>разработки</highlighttext> серверных компонентов на <highlighttext>Python</highlighttext>. Знание Microsoft SQL server и PostgreSql. Опыт работы с Git. ",
+        "salary_from": 30000,
+        "salary_to": 80000,
+        "url": "https://api.hh.ru/vacancies/80736556?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Преподаватель курса Разработка на Python",
+        "area": "Санкт-Петербург",
+        "employer": "Компьютерная академия TOP (Компьютерная Академия ТОП)",
+        "requirement": "Быть абсолютным профи в своей области и с желанием/умением передать свои знания и умения нашим студентам. Ответственность и пунктуальность. ",
+        "salary_from": 30000,
+        "salary_to": 60000,
+        "url": "https://api.hh.ru/vacancies/117442508?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Trainee/Intern/Junior Python backend developer",
+        "area": "Санкт-Петербург",
+        "employer": "Рекруто",
+        "requirement": "Для этого мы ищем начинающего, сообразительного, шустрого, амбициозного интерна-джуна питониста. Опыт в коммерческой <highlighttext>разработке</highlighttext> не требуется – важнее навык быстро...",
+        "salary_from": 20000,
+        "salary_to": 40000,
+        "url": "https://api.hh.ru/vacancies/118573774?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Backend developer - Python",
+        "area": "Санкт-Петербург",
+        "employer": "Novakid Inc",
+        "requirement": "5+ years of hands-on experience as a <highlighttext>Python</highlighttext> <highlighttext>Developer</highlighttext>. You should be comfortable working with <highlighttext>Python</highlighttext> 3.8...",
+        "salary_from": 4500,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117976884?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Backend developer - Python",
+        "area": "Москва",
+        "employer": "Novakid Inc",
+        "requirement": "5+ years of hands-on experience as a <highlighttext>Python</highlighttext> <highlighttext>Developer</highlighttext>. You should be comfortable working with <highlighttext>Python</highlighttext> 3.8...",
+        "salary_from": 4500,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117976885?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Python Back-End Developer",
+        "area": "Санкт-Петербург",
+        "employer": "Repay",
+        "requirement": "...по <highlighttext>Python</highlighttext> от Яндекса или Skillbox менее трех лет назад. 4+ лет опыта коммерческой <highlighttext>разработки</highlighttext>. Умение разрабатывать на <highlighttext>Python</highlighttext>...",
+        "salary_from": 4000,
+        "salary_to": 5000,
+        "url": "https://api.hh.ru/vacancies/118094191?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Python Developer (Israel)",
+        "area": "Санкт-Петербург",
+        "employer": "V4Scale",
+        "requirement": "<highlighttext>Python</highlighttext> programming (multi-threading, multi-processing, communication protocols, and databases). Background <highlighttext>development</highlighttext> of Network, Storage, Security management systems, or other...",
+        "salary_from": 3500,
+        "salary_to": null,
+        "url": "https://api.hh.ru/vacancies/117699174?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Backend разработчик (Python)",
+        "area": "Москва",
+        "employer": "Vyyer Technologies",
+        "requirement": "Опыт подключения и использования внутренних и сторонних сервисов. Опыт в <highlighttext>разработке</highlighttext> архитектуры приложения и меж-сервисного взаимодействия. Понимание шаблонов проектирования...",
+        "salary_from": 2000,
+        "salary_to": 4000,
+        "url": "https://api.hh.ru/vacancies/118198863?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик (Junior/Middle)",
+        "area": "Москва",
+        "employer": "LATOKEN",
+        "requirement": "Использует LLM и RAG. 1+ год опыта в <highlighttext>Python</highlighttext>. Увлечение передовыми технологиями, опыт применения GPT для анализа данных с...",
+        "salary_from": 1500,
+        "salary_to": 3100,
+        "url": "https://api.hh.ru/vacancies/118523931?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Москва",
+        "employer": "Кадровое агентство Candidate",
+        "requirement": "Умение работать в команде. Хорошая коммуникация, умение доносить свои мысли в устной и письменной форме. Инициативность: предлагает идеи и улучшения...",
+        "salary_from": 1000,
+        "salary_to": 1500,
+        "url": "https://api.hh.ru/vacancies/117996067?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Аналитик-разработчик (автоматизация отчетности Python, SQL)",
+        "area": "Москва",
+        "employer": "ДИКСИ, группа компаний",
+        "requirement": "Знание и практический опыт работы с <highlighttext>Python</highlighttext> (cx_Oracle, sqlalchemy, pandas, numpy и т.д.). Понимание VBA. Знание и практический опыт...",
+        "salary_from": null,
+        "salary_to": 150000,
+        "url": "https://api.hh.ru/vacancies/118545935?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle python-разработчик",
+        "area": "Москва",
+        "employer": "Смарт Аналитикс Рус",
+        "requirement": "От 2-х лет опыта коммерческой <highlighttext>разработки</highlighttext> на <highlighttext>Python</highlighttext> 3.x, включая <highlighttext>разработку</highlighttext> веб-сервисов с использованием FastAPI или Django. ",
+        "salary_from": null,
+        "salary_to": 200000,
+        "url": "https://api.hh.ru/vacancies/118313707?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Middle Python Developer",
+        "area": "Москва",
+        "employer": "Филиал компании Лист Ренталс Лимитед",
+        "requirement": "Техническое образование или эквивалентный практический опыт. Хороший опыт <highlighttext>разработки</highlighttext> на асинхронном <highlighttext>Python</highlighttext>. Опыт <highlighttext>разработки</highlighttext> веб-приложений. Хорошее владение SQL и...",
+        "salary_from": null,
+        "salary_to": 5000,
+        "url": "https://api.hh.ru/vacancies/118307556?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python developer (FastAPI)",
+        "area": "Москва",
+        "employer": "КИБЕР-РОМ",
+        "requirement": "GitLab CI/CD. EFK. Умение писать тестируемый поддерживаемый код. Опыт в <highlighttext>разработке</highlighttext> асинхронного кода. Умение работать в команде согласно выстроенным...",
+        "salary_from": null,
+        "salary_to": 250000,
+        "url": "https://api.hh.ru/vacancies/118323989?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Москва",
+        "employer": "Точка",
+        "requirement": "Понимаешь, что такое асинхронное программирование, как оно устроено в языке <highlighttext>Python</highlighttext> и можешь работать с микросервисной архитектурой. Разбираешься в новых...",
+        "salary_from": null,
+        "salary_to": 570000,
+        "url": "https://api.hh.ru/vacancies/118572460?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Python-разработчик",
+        "area": "Москва",
+        "employer": "РБ",
+        "requirement": "Публикуем новости, результаты матчей, аналитику и спортивные инсайты на английском и русском языках. Что необходимо знать и уметь: FastAPI и...",
+        "salary_from": null,
+        "salary_to": 250000,
+        "url": "https://api.hh.ru/vacancies/117443754?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Разработчик Python",
+        "area": "Москва",
+        "employer": "ИЦ АЙ-ТЕКО",
+        "requirement": "опыт <highlighttext>разработки</highlighttext> на языке <highlighttext>Python</highlighttext> от 3-х лет, в том числе микросервисных приложений. - уверенное знание Linux, опыт программирования в...",
+        "salary_from": null,
+        "salary_to": 240000,
+        "url": "https://api.hh.ru/vacancies/105133634?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Full Stack Разработчик (React, Python, FastAPI)",
+        "area": "Москва",
+        "employer": "Home Digital School",
+        "requirement": "...<highlighttext>разработки</highlighttext> проекта с 0. Опыт работы с <highlighttext>Python</highlighttext> и фреймворком FastAPI. Уверенное владение JavaScript и библиотекой React. Знание принципов <highlighttext>разработки</highlighttext>...",
+        "salary_from": null,
+        "salary_to": 250000,
+        "url": "https://api.hh.ru/vacancies/117638420?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Python Developer",
+        "area": "Москва",
+        "employer": "evrone.ru",
+        "requirement": "Queues: SQS/Kafka/NATS.io. 5+ лет опыта работы с <highlighttext>Python</highlighttext> и Asyncio/Gevent/Coroutines. 3+ года опыта с...",
+        "salary_from": null,
+        "salary_to": 440000,
+        "url": "https://api.hh.ru/vacancies/116858337?host=hh.ru"
+    },
+    {
+        "name_vacancy": "Senior Backend Developer (Python\\Go)",
+        "area": "Москва",
+        "employer": "Геомирагро",
+        "requirement": "Опыт: коммерческая <highlighttext>разработка</highlighttext> от 3-х лет. Языки программирования: обязательное знание <highlighttext>Python</highlighttext> и Go. Опыт <highlighttext>разработки</highlighttext> микросервисов и понимание их...",
+        "salary_from": null,
+        "salary_to": 300000,
+        "url": "https://api.hh.ru/vacancies/117493164?host=hh.ru"
+    }
+]
